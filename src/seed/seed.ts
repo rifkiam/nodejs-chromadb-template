@@ -9,13 +9,13 @@ async function seed() {
   });
 
   await collection.add({
-    ids: ["doc-1", "doc-2", "doc-3", "doc-4", "doc-5"],
+    ids: ["1", "2", "3", "4", "5"],
     documents: [
-      "Chroma is a vector database",
-      "Express works well with TypeScript",
-      "Ini adalah suatu teks",
-      "Armuji adalah seorang bupati",
-      "Saya suka makan nasi goreng"
+      "Perusahaan mempunyai visi untuk menjadi pemimpin pasar dan misi untuk memberikan layanan terbaik kepada pelanggan",
+      "Perusahaan memiliki beberapa layanan seperti talent management, recruitment, dan konsultasi SDM",
+      "Perusahaan berlokasi di Jl. Kenconowungu, Semarang, Indonesia",
+      "Perusahaan didirikan pada tahun 2020 dan telah melayani banyak klien",
+      "Perusahaan telah mendapatkan beberapa penghargaan di bidang layanan SDM"
     ]
   });
 
